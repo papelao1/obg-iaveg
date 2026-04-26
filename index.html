@@ -28,6 +28,8 @@
     --radius: 12px;
   }
 
+  html { scroll-behavior: smooth; }
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
@@ -530,7 +532,7 @@
 
   <!-- ════════ CTA 1 ════════ -->
   <div class="cta-block fade-in">
-    <a href="#" class="cta-btn">→ Sim! Quero minha Chefe Vegana por R$ 37,90/mês</a>
+    <a href="#checkout" class="cta-btn">→ Sim! Quero minha Chefe Vegana por R$ 37,90/mês</a>
     <div class="cta-sub">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
       1 clique · Sem redigitar cartão · Cancela quando quiser
@@ -633,7 +635,7 @@
   </section>
 
   <!-- ════════ HOTMART WIDGET ════════ -->
-  <section class="final-cta">
+  <section id="checkout" class="final-cta">
     <div id="hotmart-sales-funnel"></div>
     <script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
     <script>
